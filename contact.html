@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - RWMS</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav>
+        <img class="logo" src="assets/logo.png" alt="">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Contact Section -->
+    <section class="contact">
+        <h1 id="green-banner">Contact Us</h1>
+        <br><br>
+        <form action="submit-contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h1>What Our Clients Say</h1>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"RWMS has transformed our waste management process, helping us become more eco-friendly!"</p>
+                <h3>Jane Doe</h3>
+            </div>
+            <div class="testimonial">
+                <p>"Their recycling services are top-notch, and we've seen a big impact on reducing our carbon footprint."</p>
+                <h3>John Smith</h3>
+            </div>
+        </div>
+    </section>
+     <!-- FOOTER -->
+     <footer class="green-footer">
+        <p>Phone: +27 79 037 1487 | Email: <a href="mailto:info@retailwaste.co.za">info@retailwaste.co.za</a></p>
+        <div class="social-links">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://twitter.com">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
