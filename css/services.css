@@ -52,7 +52,56 @@ nav ul li a {
 nav ul li a:hover {
     color: #90ee90;
 }
+/* Hamburger Menu */
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
 
+#hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 100, 0, 0.9);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        z-index: 999;
+    }
+    
+    .logo{
+        width: 20%;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+}
+
+/* Banner */
 .banner {
     text-align: center;
     color: white;
@@ -86,17 +135,32 @@ nav ul li a:hover {
     color: #90ee90;
 }
 
-.company-logo {
-    font-size: 60px;
-    font-weight: bold;
+/* Responsive Banner */
+@media (max-width: 768px) {
+    .company-logo {
+        font-size: 40px;
+    }
+
+    .mantra {
+        font-size: 22px;
+    }
+
+    .banner {
+        padding: 60px 10px;
+    }
 }
 
-.mantra {
-    font-size: 28px;
-    margin-top: 10px;
-    color: #90ee90;
+@media (max-width: 480px) {
+    .company-logo {
+        font-size: 30px;
+    }
+
+    .mantra {
+        font-size: 18px;
+    }
 }
 
+/* Services */
 .services {
     text-align: center;
     padding: 2rem;
@@ -125,6 +189,58 @@ nav ul li a:hover {
     font-size: 16px;
     line-height: 1.5;
 }
+
+/* Responsive Services */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 100, 0, 0.9);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        z-index: 999;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+    .service-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item h2 {
+        font-size: 20px;
+    }
+
+    .service-item p {
+        font-size: 14px;
+    }
+}
+
 /* Footer */
 .green-footer {
     background-color: #006400;
@@ -144,7 +260,19 @@ footer a:hover {
     color: #90ee90;
 }
 
-#green-banner{
-    background-color:#006400; 
+#green-banner {
+    background-color: #006400;
     color: white;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .green-footer {
+        padding: 15px;
+    }
+
+    footer a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
 }
