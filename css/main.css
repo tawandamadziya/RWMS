@@ -339,6 +339,16 @@ footer a:hover {
         max-width: 100%;
         padding: 20px;
     }
+        /* Footer */
+        .green-footer {
+            font-size: 14px;
+            padding: 10px;
+        }
+    
+        footer a {
+            font-size: 14px;
+            margin: 0 5px;
+        }
 }
 
 @media (max-width: 480px) {

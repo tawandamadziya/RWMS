@@ -109,6 +109,15 @@ nav ul.active {
     #hamburger {
         display: block;
     }
+    .green-footer {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    footer a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
 }
 
 /* Banner */

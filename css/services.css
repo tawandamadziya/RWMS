@@ -268,11 +268,12 @@ footer a:hover {
 /* Responsive Footer */
 @media (max-width: 768px) {
     .green-footer {
-        padding: 15px;
+        font-size: 14px;
+        padding: 10px;
     }
 
     footer a {
-        margin: 0 5px;
         font-size: 14px;
+        margin: 0 5px;
     }
 }
