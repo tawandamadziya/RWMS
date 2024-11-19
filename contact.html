@@ -1,107 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - RWMS</title>
-    <link rel="stylesheet" href="css/contact.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="css/contact.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+  </head>
+  <body>
     <header id="header">
-        <!-- Navbar -->
-        <nav>
-            <img class="logo" src="assets/logo.png" alt="">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <div id="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </nav>
-    
-        <br><br><br><br><br><br><br><br>
-        <div class="banner">
-            <h1 class="company-logo">Contact Us</h1>
+      <!-- Navbar -->
+      <nav>
+        <img class="logo" src="assets/logo.png" alt="" />
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <img src="assets/contact.jpg" id="banner-video" alt="">
+      </nav>
+
+      <br /><br /><br /><br /><br /><br /><br /><br />
+      <div class="banner">
+        <h1 class="company-logo">Contact Us</h1>
+      </div>
+      <img src="assets/contact.jpg" id="banner-video" alt="" />
     </header>
 
     <!-- Contact Section -->
-     <br><br>
-<section class="contact">
-    <h1 id="green-banner">Contact Us</h1>
-    <br><br>
-    <div class="contact-container">
+    <br /><br />
+    <section class="contact">
+      <h1 id="green-banner">Contact Us</h1>
+      <br /><br />
+      <div class="contact-container">
         <div class="contact-form">
-            <form action="/process_form.php" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+          <form action="https://formspree.io/f/meoqzggz" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
-        <br>
+        <br />
         <div class="map">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345091834!2d144.95373531531596!3d-37.8172099797514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f12803b%3A0x1a4d2f021bfe5e8c!2sRetail%20Waste%20Management%20Services!5e0!3m2!1sen!2sza!4v1622783431232!5m2!1sen!2sza" 
-                width="100%" 
-                height="300" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345091834!2d144.95373531531596!3d-37.8172099797514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f12803b%3A0x1a4d2f021bfe5e8c!2sRetail%20Waste%20Management%20Services!5e0!3m2!1sen!2sza!4v1622783431232!5m2!1sen!2sza"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
-    </div>
-</section>
-
+      </div>
+    </section>
 
     <!-- Testimonials Section -->
     <section class="testimonials">
-        <h1>What Our Clients Say</h1>
-        <div class="testimonial-slider">
-            <div class="testimonial">
-                <p>"RWMS has transformed our waste management process." </p>
-                <h3>Willem Roelf</h3>
-            </div>
-            <div class="testimonial">
-                <p>"The team at RWMS is incredibly professional."</p>
-                <h3>Ray Cooper</h3>
-            </div>
-            <div class="testimonial">
-                <p>"We are thrilled with the service provided by RWMS."</p>
-                <h3>Nhlanhla Kunene</h3>
-            </div>
+      <h1>What Our Clients Say</h1>
+      <div class="testimonial-slider">
+        <div class="testimonial">
+          <p>"RWMS has transformed our waste management process."</p>
+          <h3>Willem Roelf</h3>
         </div>
+        <div class="testimonial">
+          <p>"The team at RWMS is incredibly professional."</p>
+          <h3>Ray Cooper</h3>
+        </div>
+        <div class="testimonial">
+          <p>"We are thrilled with the service provided by RWMS."</p>
+          <h3>Nhlanhla Kunene</h3>
+        </div>
+      </div>
     </section>
-    
+
     <!-- FOOTER -->
     <footer class="green-footer">
-        <h2>Get in Touch</h2>
-        <p>
-          Ready to transform your waste management practices? contact us today to
-          learn more about how RWMS can support your business.Together, we can
-          create a cleaner, greener Cape Town.
-        </p>
-        <p>
-          Phone: +27 79 037 1487 |+27 61 143 9384 Telephone: +27 21 911 2388
-          Email: victor@retailwaste.co.za|victoria@retailwaste.co.za|
-          <a href="mailto:info@retailwaste.co.za">info@retailwaste.co.za</a>
-        </p>
-  
-        <div class="social-links">
-          <a href="https://facebook.com">Facebook</a>
-          <a href="https://linkedin.com">LinkedIn</a>
-          <a href="https://twitter.com">Twitter</a>
-        </div>
-      </footer>
-      <script src="js/main.js"></script>
-</body>
+      <h2>Get in Touch</h2>
+      <p>
+        Ready to transform your waste management practices? contact us today to
+        learn more about how RWMS can support your business.Together, we can
+        create a cleaner, greener Cape Town.
+      </p>
+      <p>
+        Phone: +27 79 037 1487 |+27 61 143 9384 Telephone: +27 21 911 2388
+        Email: victor@retailwaste.co.za|victoria@retailwaste.co.za|
+        <a href="mailto:info@retailwaste.co.za">info@retailwaste.co.za</a>
+      </p>
+
+      <div class="social-links">
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://linkedin.com">LinkedIn</a>
+        <a href="https://twitter.com">Twitter</a>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
